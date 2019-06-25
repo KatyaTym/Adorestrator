@@ -1,176 +1,176 @@
 * {
-	font-family: HelveticaNeue;
+    font-family: HelveticaNeue;
 }
 
 body {
-	background-color: white;
+    background-color: white;
 }
 
 .back_img {
-	background-image: url('backgroung.png');
-	background-repeat: no-repeat;
+    background-image: url('backgroung.png');
+    background-repeat: no-repeat;
 }
 
 .row {
-	height: 102px;
-	display: flex;
-	align-items: center;
+    height: 102px;
+    display: flex;
+    align-items: center;
 }
 
 .btn_call_rqst {
-	width: 200px;
-	height: 40px;
-	border-radius: 10px;
-	background-color: #333333;
-	color: #ffffff;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 28px;
-	text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
 }
 
 .number {
-	color: #333333;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 28px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .logo {
-	float: right;
-	color: #333333;
-	font-size: 30px;
-	line-height: 28px;
+    float: right;
+    color: #333333;
+    font-size: 30px;
+    line-height: 28px;
 }
 
 .logo_name1 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .logo_name2 {
-	font-weight: 300;
+    font-weight: 300;
 }
 
 .logo_description {
-	color: #6f6f6f;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 28px;
-	white-space: nowrap;
+    color: #6f6f6f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    white-space: nowrap;
 }
 
 .caption_h1 {
-	font-weight: 700;
-	font-size: 36px;
+    font-weight: 700;
+    font-size: 36px;
 }
 
 .color_white {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .color_yellow {
-	color: #FFDC00;
+    color: #FFDC00;
 }
 
 .back_color_yellow {
-	background-color: #FFDC00;
+    background-color: #FFDC00;
 }
 
 .color_black {
-	color: #333333;
+    color: #333333;
 }
 
 .bonus {
-	font-weight: 479;
-	font-size: 24px;
+    font-weight: 479;
+    font-size: 24px;
 }
 
 .timer_block {
-	width: 50px;
-	height: 75px;
-	display: inline-block;
-	border-radius: 10px;
-	background-color: #333333;
-	font-size: 48px;
-	text-align: center;
-	color: #FFFFFF;
+    width: 50px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #333333;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .timer_dots {
-	font-size: 80px;
-	font-weight: 1000;
-	text-align: center;
-	color: #333333;
+    font-size: 80px;
+    font-weight: 1000;
+    text-align: center;
+    color: #333333;
 }
 
 .timer {
-	margin-top: -30px;
+    margin-top: -30px;
 }
 
 .main_screen_center {
-	width: 979px;
-	left: 0px;
-	right: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 256px;
-	position: absolute;
+    width: 979px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 256px;
+    position: absolute;
 }
 
 .adorestrator_img {
-	position: absolute;
-	top: 0px;
-	right: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .price_img {
-	border-radius: 50%;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .caption_h2 {
-	text-align: center;
-	font-size: 24px;
+    text-align: center;
+    font-size: 24px;
 }
 
 hr {
-	width: 251px;
-	size: 2px;
-	background-color: #FFDC01;
+    width: 251px;
+    size: 2px;
+    background-color: #FFDC01;
 }
 
 .characteristic_text {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .max-content {
-	width: max-content;
+    width: max-content;
 }
 
 .centered {
-	margin: auto;
+    margin: auto;
 }
 
 .characteristic_margin {
-	margin-top: 1000px;
+    margin-top: 1000px;
 }
 
 .btn-order {
-	height: 75px;
-	width: 298px;
-	background-color: #FFDC00;
-	color: #333333;
-	font-size: 24px;
-	font-weight: 700;
+    height: 75px;
+    width: 298px;
+    background-color: #FFDC00;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-.div_text_center{
-	text-align: center;
+.div_text_center {
+    text-align: center;
 }
 
 .reason_margin {
-	margin-top: 59px;
-	font-weight: 700;
+    margin-top: 59px;
+    font-weight: 700;
 }
