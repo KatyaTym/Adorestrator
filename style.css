@@ -59,7 +59,7 @@ body {
 	white-space: nowrap;
 }
 
-.caption {
+.caption_h1 {
 	font-weight: 700;
 	font-size: 36px;
 }
@@ -130,7 +130,7 @@ body {
 	right: 0px;
 }
 
-.characteristic_caption {
+.caption_h2 {
 	text-align: center;
 	font-size: 24px;
 }
@@ -153,7 +153,7 @@ hr {
 	margin: auto;
 }
 
-.characteristic {
+.characteristic_margin {
 	margin-top: 1000px;
 }
 
@@ -168,4 +168,9 @@ hr {
 
 .div_text_center{
 	text-align: center;
+}
+
+.reason_margin {
+	margin-top: 59px;
+	font-weight: 700;
 }
