@@ -51,11 +51,11 @@ body {
 	line-height: 28px;
 }
 
-.p1 {
+.logo_name1 {
 	font-weight: 700;
 }
 
-.p2 {
+.logo_name2 {
 	font-weight: 300;
 }
 
@@ -72,15 +72,15 @@ body {
 	font-size: 36px;
 }
 
-.hr2 {
+.color_white {
 	color: #FFFFFF;
 }
 
-.hr1 {
+.color_yellow {
 	color: #FFDC00;
 }
 
-.hr3 {
+.color_black {
 	color: #333333;
 }
 
