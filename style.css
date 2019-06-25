@@ -36,10 +36,6 @@ body {
 	line-height: 28px;
 }
 
-.call_div, .logo {
-	width: min-content;
-}
-
 .logo {
 	float: right;
 	color: #333333;
@@ -137,10 +133,6 @@ body {
 .characteristic_caption {
 	text-align: center;
 	font-size: 24px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 572px;
-	margin-top: 719px;
 }
 
 hr {
@@ -163,4 +155,17 @@ hr {
 
 .characteristic {
 	margin-top: 1000px;
+}
+
+.btn-order {
+	height: 75px;
+	width: 298px;
+	background-color: #FFDC00;
+	color: #333333;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.div_text_center{
+	text-align: center;
 }
