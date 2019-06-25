@@ -135,7 +135,7 @@ body {
     font-size: 24px;
 }
 
-hr {
+.caption_delelimeter_line {
     width: 251px;
     size: 2px;
     background-color: #FFDC01;
@@ -173,4 +173,11 @@ hr {
 .reason_margin {
     margin-top: 59px;
     font-weight: 700;
+}
+
+.char_delimiter_line {
+    float: left;
+    width: 50px;
+    size: 2px;
+    background-color: #FFDC01;
 }
