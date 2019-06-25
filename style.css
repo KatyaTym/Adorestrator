@@ -16,7 +16,6 @@ body {
 
 .row {
 	height: 102px;
-	background-color: #ffdc00;
 	display: flex;
 	align-items: center;
 }
@@ -78,6 +77,10 @@ body {
 
 .color_yellow {
 	color: #FFDC00;
+}
+
+.back_color_yellow {
+	background-color: #FFDC00;
 }
 
 .color_black {
