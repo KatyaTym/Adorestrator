@@ -80,6 +80,10 @@ body {
 	color: #FFDC00;
 }
 
+.hr3 {
+	color: #333333;
+}
+
 .bonus {
 	font-weight: 479;
 	font-size: 24px;
@@ -109,8 +113,38 @@ body {
 
 .main_screen_center {
 	width: 979px;
+	left: 0px;
+	right: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 153px;
+	margin-top: 115px;
+	position: absolute;
+}
 
+.adorestrator_img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.price_img {
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.characteristic_caption {
+	text-align: center;
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 572px;
+	margin-top: 719px;
+}
+
+hr {
+	width: 251px;
+	size: 2px;
+	background-color: #FFDC01;
 }
