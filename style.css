@@ -76,6 +76,10 @@ body {
     background-color: #FFDC00;
 }
 
+.back_color_black {
+	background-color:#333333;
+}
+
 .color_black {
     color: #333333;
 }
