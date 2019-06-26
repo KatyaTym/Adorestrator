@@ -77,7 +77,7 @@ body {
 }
 
 .back_color_black {
-	background-color:#333333;
+    background-color: #333333;
 }
 
 .color_black {
@@ -123,9 +123,9 @@ body {
 }
 
 .small_timer_dots {
-	width: 15px;
-	height: 36px;
-	text-align: center;
+    width: 15px;
+    height: 36px;
+    text-align: center;
     color: #333333;
     font-size: 50px;
     font-weight: 1000;
@@ -209,6 +209,6 @@ body {
 }
 
 .form-control {
-	width: 326px;
-	height: 51px;
+    width: 326px;
+    height: 51px;
 }
