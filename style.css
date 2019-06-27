@@ -29,6 +29,7 @@ body {
     text-align: center;
 }
 
+
 .number {
     color: #333333;
     font-size: 18px;
@@ -82,6 +83,9 @@ body {
 
 .color_black {
     color: #333333;
+}
+.color_gray {
+	color: #9A9A9A;
 }
 
 .bonus {
@@ -190,6 +194,8 @@ body {
     color: #333333;
     font-size: 24px;
     font-weight: 700;
+    border-style: outset;
+    padding: 10px;
 }
 
 .div_text_center {
