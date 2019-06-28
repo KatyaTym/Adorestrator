@@ -84,8 +84,9 @@ body {
 .color_black {
     color: #333333;
 }
+
 .color_gray {
-	color: #9A9A9A;
+    color: #9A9A9A;
 }
 
 .bonus {
@@ -217,4 +218,9 @@ body {
 .form-control {
     width: 326px;
     height: 51px;
+}
+
+#shipping td {
+    padding-left: 100px;
+    padding-right: 100px;
 }
