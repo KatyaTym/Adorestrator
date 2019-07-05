@@ -10,6 +10,11 @@ body {
 .back_img {
     background-image: url('img/backgroung.png');
     background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 10%;
 }
 
 .row {
@@ -20,7 +25,6 @@ body {
 
 .btn_call_rqst {
     width: 100%;
-    height: 40px;
     border-radius: 4%;
     background-color: #333333;
     color: #ffffff;
@@ -29,7 +33,6 @@ body {
     line-height: 28px;
     text-align: center;
 }
-
 
 .number {
     color: #333333;
@@ -41,7 +44,6 @@ body {
 }
 
 .logo {
-    float: right;
     color: #333333;
     font-size: 125%;
     line-height: 28px;
@@ -61,11 +63,6 @@ body {
     font-weight: 400;
     line-height: 28px;
     white-space: nowrap;
-}
-
-.caption_h1 {
-    font-weight: 700;
-    font-size: 150%;
 }
 
 .color_white {
@@ -97,14 +94,13 @@ body {
 }
 
 .timer_block {
-    width: 5%;
-    height: 10%;
     display: inline-block;
     border-radius: 10px;
     background-color: #333333;
     font-size: 200%;
     text-align: center;
     color: #FFFFFF;
+
 }
 
 .timer_dots {
@@ -119,8 +115,7 @@ body {
 }
 
 .small_timer_block {
-    width: 36px;
-    height: 53px;
+    width: 10%;
     display: inline-block;
     border-radius: 5px;
     background-color: #333333;
@@ -130,8 +125,7 @@ body {
 }
 
 .small_timer_dots {
-    width: 15px;
-    height: 36px;
+    width: 8%;
     text-align: center;
     color: #333333;
     font-size: 200%;
@@ -139,26 +133,13 @@ body {
 }
 
 .main_screen_center {
-    width: 979px;
-    left: 0px;
-    right: 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 256px;
-    position: absolute;
-}
-
-.adorestrator_img {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    margin-top: 10%;
 }
 
 .price_img {
     border-radius: 50%;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
 }
 
 .caption_h2 {
@@ -167,7 +148,7 @@ body {
 }
 
 .caption_delelimeter_line {
-    width: 251px;
+    width: 30%;
     size: 2px;
     background-color: #FFDC01;
     margin-top: 30px;
@@ -185,18 +166,12 @@ body {
     margin: auto;
 }
 
-.characteristic_margin {
-    margin-top: 1000px;
-}
-
-.btn-order {
-    height: 75px;
-    width: 298px;
+.btn_order {
     background-color: #FFDC00;
     color: #333333;
     font-weight: 700;
     border-style: outset;
-    padding: 10px;
+    width: 260px;
 }
 
 .div_text_center {
@@ -210,14 +185,13 @@ body {
 
 .char_delimiter_line {
     float: left;
-    width: 50px;
+    width: 8%;
     size: 2px;
     background-color: #FFDC01;
 }
 
 .form-control {
-    width: 326px;
-    height: 51px;
+    width: 90%;
 }
 
 #shipping td {
@@ -225,11 +199,9 @@ body {
     padding-right: 100px;
 }
 
-@media (max-width: 993px) {
-    .main_screen_center {
-        white-space: nowrap;
-        margin-top: 30%;
-        flex-direction: column;
+@media (min-width: 994px) {
+    .logo {
+        float: right;
     }
 
     .caption_h1 {
@@ -240,22 +212,44 @@ body {
     .centered {
         justify-content: center;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         flex-wrap: wrap;
     }
+
     .img_centered {
         justify-content: center;
     }
+
+    .adorestrator_img {
+        top: 0px;
+        right: 0px;
+        position: absolute;
+    }
+
+    .price_img {
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+    }
+
+    .main_screen_center {
+        position: relative;
+        padding-right: 30%;
+    }
+
+    .timer_block {
+        width: 50px;
+    }
 }
 
+@media (max-width: 993px) {
+    .invisible_small {
+        visibility: hidden;
+    }
 
-
-@media (max-width: 768px) {
-    .main_screen_center {
-        align-items: center;
-        white-space: nowrap;
-        margin-top: 15%;
-        flex-direction: column;
+    .centered_small {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .caption_h1 {
@@ -263,36 +257,22 @@ body {
         font-size: 50%;
     }
 
-    .centered {
-        justify-content: center;
-        display: flex;
-        flex-direction:column;
-        flex-wrap: wrap;
-
-    }
-    .img_centered {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 496px) {
-    .centered {
-        justify-content: center;
-        display: flex;
-        flex-direction:column;
-        flex-wrap: wrap;
-
-    }
     .img_centered {
         justify-content: center;
     }
 
-    .display {
-        display: none;
-    }
-    .caption_h1 {
-        font-size: 75%;
-        font-weight: 350;
+    .btn-order {
+        width: 20%;
     }
 
+    .price_img {
+        width: 25%;
+        margin-top: -25%;
+        margin-left: 74%;
+    }
+
+
+    .timer_block {
+        width: 40px;
+    }
 }
