@@ -18,9 +18,12 @@ body {
 }
 
 .row {
-    height: 102px;
-    display: flex;
-    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+footer.row {
+    height: 126px;
 }
 
 .btn_call_rqst {
