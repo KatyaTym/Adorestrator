@@ -1,10 +1,23 @@
 * {
     font-family: HelveticaNeue;
-    font-size: 24px;
 }
 
 body {
     background-color: white;
+    font-size: 24px;
+}
+
+.font_size_small {
+    font-size: 16px;
+}
+
+.no_wrap {
+    white-space: nowrap;
+}
+
+.caption_h1 {
+    font-weight: 500;
+    font-size: 100%;
 }
 
 .back_img {
@@ -17,7 +30,7 @@ body {
     padding-bottom: 10%;
 }
 
-.row {
+.zero_horizontal_margin {
     margin-right: 0px;
     margin-left: 0px;
 }
@@ -173,12 +186,23 @@ footer.row {
     margin: auto;
 }
 
+ol.set {
+    list-style-type: none;
+    padding-left: 0;
+    white-space: normal;
+}
+
+.margin_bottom_small {
+    margin-bottom: 20px;
+}
+
 .btn_order {
     background-color: #FFDC00;
     color: #333333;
     font-weight: 700;
     border-style: outset;
     width: 260px;
+    margin-top: 10px;
 }
 
 .div_text_center {
@@ -192,8 +216,7 @@ footer.row {
 
 .char_delimiter_line {
     float: left;
-    width: 8%;
-    size: 2px;
+    width: 50px;
     background-color: #FFDC01;
 }
 
@@ -207,24 +230,40 @@ footer.row {
 }
 
 @media (min-width: 994px) {
+    .col_char_large-1 {
+        width: 35%;
+        -ms-flex: 0 0 35%;
+        flex: 0 0 35%;
+    }
+
+    .col_char_large-2 {
+        width: 20%;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+    }
+
+    .col_char_large-3 {
+        width: 35%;
+        -ms-flex: 0 0 35%;
+        flex: 0 0 35%;
+    }
+
+    .char_center {
+        margin-left: 7.5%;
+    }
+
+    .col_char_large-4 {
+        width: 55%;
+        -ms-flex: 0 0 55%;
+        flex: 0 0 55%;
+    }
+
     .logo {
         float: right;
     }
 
-    .caption_h1 {
-        font-weight: 500;
-        font-size: 100%;
-    }
-
-    .centered {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .img_centered {
-        justify-content: center;
+    .max-content-large {
+        width: max-content;
     }
 
     .adorestrator_img {
@@ -257,15 +296,7 @@ footer.row {
     .centered_small {
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .caption_h1 {
-        font-weight: 300;
-        font-size: 50%;
-    }
-
-    .img_centered {
-        justify-content: center;
+        width: max-content;
     }
 
     .btn-order {
