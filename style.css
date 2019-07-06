@@ -79,7 +79,7 @@ footer {
 }
 
 .font_weight_small {
-    font-weight: 350;
+    font-weight: 400;
 }
 
 .logo_description {
@@ -113,7 +113,7 @@ footer {
 }
 
 .bonus {
-    font-weight: 479;
+    font-weight: 500;
 }
 
 .timer_block {
@@ -128,7 +128,7 @@ footer {
 
 .timer_dots {
     font-size: 333%;
-    font-weight: 1000;
+    font-weight: 900;
     text-align: center;
     color: #333333;
 }
@@ -152,7 +152,7 @@ footer {
     text-align: center;
     color: #333333;
     font-size: 200%;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .main_screen_center {
@@ -172,7 +172,6 @@ footer {
 
 .caption_delelimeter_line {
     width: 30%;
-    size: 2px;
     background-color: #FFDC01;
     margin-top: 30px;
 }
