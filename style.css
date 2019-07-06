@@ -29,8 +29,6 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    margin-left: -15px;
-    margin-right: -15px;
     padding-bottom: 10%;
 }
 
@@ -39,8 +37,9 @@ body {
     margin-left: 0px;
 }
 
-footer.row {
+footer {
     height: 126px;
+    margin-top: 10px;
 }
 
 .vertical_padding_medium {
@@ -234,6 +233,16 @@ ol.set {
         margin-left: 7.5%;
     }
 
+    body {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .back_img {
+        margin-left: -165px;
+        margin-right: -165px;
+    }
+
     .logo {
         float: right;
     }
@@ -262,11 +271,21 @@ ol.set {
     .timer_block {
         width: 50px;
     }
+
+    footer.row {
+        margin-left: -165px;
+        margin-right: -165px;
+    }
 }
 
 @media (max-width: 993px) {
     .text-small-center {
         text-align: center;
+    }
+
+    .back_img {
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
     .invisible_small {
@@ -296,4 +315,5 @@ ol.set {
     .full_max_width_small {
         max-width: 100%;
     }
+
 }
