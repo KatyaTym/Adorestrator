@@ -205,10 +205,6 @@ ol.set {
     margin-top: 10px;
 }
 
-.div_text_center {
-    text-align: center;
-}
-
 .reason_margin {
     margin-top: 59px;
     font-weight: 700;
@@ -230,32 +226,8 @@ ol.set {
 }
 
 @media (min-width: 994px) {
-    .col_char_large-1 {
-        width: 35%;
-        -ms-flex: 0 0 35%;
-        flex: 0 0 35%;
-    }
-
-    .col_char_large-2 {
-        width: 20%;
-        -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-    }
-
-    .col_char_large-3 {
-        width: 35%;
-        -ms-flex: 0 0 35%;
-        flex: 0 0 35%;
-    }
-
     .char_center {
         margin-left: 7.5%;
-    }
-
-    .col_char_large-4 {
-        width: 55%;
-        -ms-flex: 0 0 55%;
-        flex: 0 0 55%;
     }
 
     .logo {
@@ -289,6 +261,10 @@ ol.set {
 }
 
 @media (max-width: 993px) {
+    .text-small-center {
+        text-align: center;
+    }
+
     .invisible_small {
         visibility: hidden;
     }
@@ -304,13 +280,16 @@ ol.set {
     }
 
     .price_img {
-        width: 25%;
-        margin-top: -25%;
-        margin-left: 74%;
+        width: 90px;
+        margin-top: 45px;
+        margin-left: -90px;
     }
-
 
     .timer_block {
         width: 40px;
+    }
+
+    .full_max_width_small {
+        max-width: 100%;
     }
 }
